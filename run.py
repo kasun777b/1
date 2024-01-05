@@ -20,7 +20,7 @@ def send_to_discord_webhook(message, webhook_url):
 
 def capture_app_logs(command, webhook_url):
     try:
-        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
 
         while True:
             output = process.stdout.readline()
@@ -36,7 +36,7 @@ def capture_app_logs(command, webhook_url):
         print(f"Error capturing logs: {e}")
 
 # Replace 'YOUR_DISCORD_WEBHOOK_URL' with the actual URL of your Discord webhook
-discord_webhook_url = 'https://discord.com/api/webhooks/1188759909144203294/A8bLyPH5Qquk2mcOQtYWP3TwuG38eL-FC4ObpDGcryjqUsVlj_6PenRtt4t6lIUXk-hs'
+discord_webhook_url = 'https://discord.com/api/webhooks/1192909182660255855/EioTq9X-QrnJW1CrsJv7MsO_mnAr3XOsTddDOHp0gXCFxmkAhGDYy8lUxcOlM2JPMnZ7'
 
 # Replace 'YOUR_COMMAND' with the command that starts your application
 command_to_run = 'python3 example.py'
