@@ -1,17 +1,4 @@
-# Project Name
 
-Brief project description.
-
-## Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-
-- Python 3.x
-- virtualenv (optional but recommended)
-
-### Installation
 
 1. Clone the repository:
 
@@ -31,17 +18,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     pip install virtualenv
     virtualenv -p python3 venv
     source venv/bin/activate
-    ```
-
-4. Install dependencies within the virtual environment:
-
-    ```bash
     pip install -r requirements.txt
     ```
-
-### Running the Application
-
-Execute the following command to start the application:
-
 ```bash
-nohup python3 run.py 🥳 &
+nohup python3 run.py
