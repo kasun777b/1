@@ -39,7 +39,7 @@ def capture_app_logs(command, webhook_url):
 discord_webhook_url = 'https://discord.com/api/webhooks/1187437955707580506/yUqKGZXcSxQnPkkToBD7e6j_EFFM_T21ISoSUW0QSD8uRLI8QLHOwjZQlHWRT-Y72O12'
 
 # Replace 'YOUR_COMMAND' with the command that starts your application
-command_to_run = 'python3 run.py'
+command_to_run = 'python3 example.py'
 
 # Create a thread to capture and send logs
 log_thread = threading.Thread(target=capture_app_logs, args=(command_to_run, discord_webhook_url))
