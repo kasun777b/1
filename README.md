@@ -18,6 +18,7 @@
     pip install virtualenv
     virtualenv -p python3 venv
     source venv/bin/activate
+    cd 1
     pip install -r requirements.txt
     ```
 ```bash
