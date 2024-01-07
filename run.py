@@ -36,7 +36,7 @@ def capture_app_logs(command, webhook_url):
         print(f"Error capturing logs: {e}")
 
 # Replace 'YOUR_DISCORD_WEBHOOK_URL' with the actual URL of your Discord webhook
-discord_webhook_url = 'https://discord.comEioTq9X-QrnJW1CrsJv7MsO_mnAr3XOsTddDOHp0gXCFxmkAhGDYy8lUxcOlM2JPMnZ7'
+discord_webhook_url = 'https://discord.com/api/webhooks/1189565682812203059/HFY_k8xGMSYLq-Rpd0W7BGp_xY464m1wY_ny1H0_yWW1aKZaI1WbEigWxU0KG_hBT0ed'
 
 # Replace 'YOUR_COMMAND' with the command that starts your application
 command_to_run = 'python3 ex.py'
