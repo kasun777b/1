@@ -1,6 +1,7 @@
 import requests
 import subprocess
 import threading
+import os
 
 def send_to_discord_webhook(message, webhook_url):
     data = {
