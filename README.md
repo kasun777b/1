@@ -15,9 +15,13 @@ Follow these steps to get started with the Twitch Channel Points Miner v2.
 1. Set up your Discord webhook for logs.
 2. Add your secret for user data.
   | Secret      | Example            |
+  
 |:------------|:-------------------|
+
 | **name**    | `twitchUsername`   |
+
 | **pass**| `twitchPassword`   |
+
 | **dic**  | `webhookUrl`       |
  
 3. Deploy on Render Cloud.
