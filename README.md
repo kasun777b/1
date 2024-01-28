@@ -23,7 +23,7 @@ Follow these steps to get started with the Twitch Channel Points Miner v2.
 
 | **pass**| `twitchPassword`   |
 
-| **dic**  | `webhookUrl`       |
+| **dis**  | `webhookUrl`       |
  
 3. Deploy on Render Cloud.
 
